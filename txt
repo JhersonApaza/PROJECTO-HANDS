@@ -1,0 +1,20 @@
+pip freeze : mostrar todo lo descargado 
+
+DESCARGAR 
+pip install opencv-python : para camara
+pip install mediapipe : framework
+pip install pygame : sonidos
+
+python -m venv venv : llamar a venv
+cd venv 
+ls
+cd .\Scripts\
+.\Activate.ps1 : entrar al venv
+deactive : salir del venv
+
+instalar los directorios frameworks dentro del venv
+
+
+venv permisos
+
+Set-ExecutionPolicy RemoteSigned -Scape CurrentUser
